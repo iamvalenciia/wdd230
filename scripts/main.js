@@ -9,5 +9,5 @@ const seconds = ('0' + t.getSeconds()).slice(-2);
 const time = `${date}/${month}/${year} ${hours}:${minutes}:${seconds}`;
 
 
-document.getElementById("thetime").innerHTML = ("Last Updated: "+time);
+document.getElementById("the_time").innerHTML = ("Last Updated: "+time);
 

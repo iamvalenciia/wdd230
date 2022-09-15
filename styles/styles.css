@@ -8,6 +8,7 @@
     font: 500 100%/1.5 system-ui;
 }
 
+
 .wrapper {
     display: block;
     border-radius: 20px;
@@ -22,24 +23,35 @@
     padding: 10px 30px;
 }
 
+
 header img {
     height: 120px;
     border-radius: 25px;
     box-shadow: 1px 1px 20px 2px gray;
 }
-
 header h1 {
     display: grid;
     padding: 0 20px;
     text-shadow: 1px 1px 4px black;
 }
 
+
 footer {
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 10px;
     border-radius: 20px;
     text-align: center;
+    line-height: 0.7;
     text-shadow: 1px 1px 4px black;
     background-color: #105F9E;
     box-shadow: 1px 1px 20px 2px gray;
     color: white
 }
+.sentence {
+    font-size: 15px;
+}
+#the_time {
+    font-size: 14px;
+    color: yellow;
+}
+
