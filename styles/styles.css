@@ -1,0 +1,45 @@
+
+#content {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: auto;
+    align-items: center;
+    margin: 0 500px;
+    font: 500 100%/1.5 system-ui;
+}
+
+.wrapper {
+    display: block;
+    border-radius: 20px;
+    background-color: #105F9E;
+    color: white;
+    box-shadow: 1px 1px 20px 2px gray;
+}
+.box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header img {
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 2px gray;
+}
+
+header h1 {
+    display: grid;
+    padding: 0 20px;
+    text-shadow: 1px 1px 4px black;
+}
+
+footer {
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    background-color: #105F9E;
+    box-shadow: 1px 1px 20px 2px gray;
+    color: white
+}
