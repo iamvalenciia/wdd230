@@ -1,0 +1,72 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+
+
+body {
+    font-family: 'Robot Mono', monospace;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 0 20px;
+    text-shadow: 1px 1px 4px black;
+    font-size: 1.8rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+header,
+main,
+footer {
+    margin: 1.7rem auto;
+    padding: 1.2rem;
+    max-width: 1000px;
+
+}
+
+img {
+    width: 25%;
+    margin: 0 0 0 2%;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px 2px gray;
+}
+
+
+footer {
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px black;
+    background-color: #105F9E;
+    box-shadow: 1px 1px 20px 2px gray;
+    color: white
+}
+
+
+.wrapper {
+    display: grid;
+    border-radius: 20px;
+    background-color: #105F9E;
+    color: white;
+    box-shadow: 1px 1px 20px 2px gray;
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+#the_time {
+    font-size: 18px;
+    color: yellow;
+}
+
