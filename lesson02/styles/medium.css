@@ -1,0 +1,29 @@
+@media only screen and (min-width: 37.5em) {
+    
+    header {
+        font-size: 1.2rem;
+    }
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section:nth-child(2) {
+		display: block;
+	}
+
+    main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+    footer {
+        box-shadow: 1px 1px 10px 2px gray;
+        font-size: 1.2rem; 
+    }
+    section img {
+        width: 80%;
+		height: auto;
+    }
+
+
+}
