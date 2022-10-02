@@ -1,0 +1,167 @@
+/* ----- baseline view ----------------------------------- */
+* {box-sizing: border-box;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #219EBC;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: 'Exo', sans-serif;
+    
+}
+
+nav {
+    font-family:'Exo', sans-serif;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 14px;
+    min-height: 4em;
+    font-size: 0.85em;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.link-div {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: #023047;
+}
+
+.link-div:hover {
+    background-color: #FB8500;
+    font-weight: 600;
+}
+
+.home-link, 
+.color-link, 
+.typo-link, 
+.target-link {
+    background-color: #FB8500;
+    font-weight: 600;
+    color: #023047;
+}
+
+.color-li {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.hex {
+    width: 80px;
+    font-weight: 600;
+    border-right: 1px solid black;
+}
+
+.color-dot {
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+} 
+
+#heading_core {
+    margin-top: 0;
+    padding: 10px 10px 0 10px;
+}
+
+#authorInfo {
+    padding-bottom: 10px;
+}
+
+#the_time {
+    font-size: 1.1rem;
+    color: white;
+}
+
+#colors {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 2em;
+} 
+
+#primary_color {
+    background-color: #FB8500;
+}
+
+#accent_color {
+    background-color: #FFB703;
+}
+
+#secundary_color {
+    background-color: #023047;
+}
+
+#accent2_color {
+    background-color: #219EBC;
+}
+
+#color-img {
+    display: none;
+}
+
+#domain_img {
+    display: none;
+}
+
+#logo-img,
+#sample-text-img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+}
