@@ -136,12 +136,22 @@ main section:nth-child(4) {
     height: 200px;
     padding: 10px;
     margin-top: 10px;
+    display: none;
 }
 
+
+
 main section:nth-child(5) {
-    display: grid;
+    background-color: #eee;
+    color: black;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+main section:nth-child(6) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: grid;
     background-color: #eee;
     color: black;
     height: 400px;
@@ -156,8 +166,7 @@ main section div:nth-child(1) {
     grid-row: 1;
     background-color: #eee;
     color: black;
-    border: 1px solid black;
-    height: 100%;
+    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -166,8 +175,16 @@ main section div:nth-child(2) {
     grid-row: 2;
     background-color: #eee;
     color: black;
-    border: 1px solid black;
-    height: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+main section div:nth-child(3) {
+    display: none;
+    grid-row: 2;
+    background-color: #eee;
+    color: black;
+    border: 1px solid gray;
     padding: 10px;
 }
 
@@ -178,22 +195,29 @@ main section div:nth-child(2) {
 
 footer {
     display: grid;
+    grid-template-columns: 1fr;
     line-height: 0.2em;
     font-size: 1rem;
     background-color: #023047;
     color: #ffb703;
     font-family: 'Exo', sans-serif;
     padding: 10px;
+    justify-items: center;
 }
 footer section:nth-child(1) {
     display: grid;
-    text-align: center;
-    place-items: center;
+    justify-items: center;
+
+    
+}
+
+.sizeName {
+    font-size: 1.5em;
 }
 
 footer section:nth-child(2) {
     display: grid;
-    text-align: center;
+    justify-items: center;
 
 }
 
@@ -203,8 +227,8 @@ hr {
 
 footer section:nth-child(3) {
     display: grid;
-    text-align: center;
-    line-height: 0.1em;
-    font-size: 0.8rem;
+    justify-items: center;
+    /* line-height: 0.1em;
+    font-size: 0.8rem; */
 
 }

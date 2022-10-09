@@ -24,5 +24,98 @@
         border: none;
         border-top: 1px solid white;
     }
-    
+
+    /* MAIN */
+    /* MAIN */
+    /* MAIN */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: minmax(100px, auto);
+    }
+    /* HERO SECTION  */
+    main section:nth-child(1) {
+        grid-column: 1/6;
+    }
+    /* JOIN SECTION  */
+    main section:nth-child(4) {
+        grid-column: 1/6;
+        display: block;
+        grid-row: 4;
+    }
+    /* NEWS RELEASE SECTION  */
+    main section:nth-child(5) {
+        grid-column: 1/6;
+        grid-row: 2;
+    }
+
+
+    /* SPOTLIGHT SECTION  */
+    main section:nth-child(6) {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-column: 1/6;
+        grid-row: 3;
+        margin-bottom: 0px;
+    }
+    main section div:nth-child(1) {
+        grid-column: 1;
+        margin-right: 5px;
+    }
+    main section div:nth-child(2) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    main section div:nth-child(3) {
+        display: none;
+    }
+
+
+    /* EVENT SECTION  */
+    main section:nth-child(2) {
+        grid-column: 1/4;
+        grid-row: 5;
+        margin-right: 10px;
+    }
+    /* WEATHER SECTION  */
+    main section:nth-child(3) {
+        grid-column: 4/6;
+        grid-row: 5;
+    }
+
+    /* FOOTER */
+    /* FOOTER */
+    /* FOOTER */
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0;
+    }
+
+    footer section:nth-child(1) {
+        display: grid;
+    }
+
+    footer section:nth-child(2) {
+        display: grid;
+        justify-items: center;
+    }
+
+    hr {
+        grid-column: 1/3;
+        margin: auto;
+    }
+
+    footer section:nth-child(3) {
+        display: grid;
+        justify-items: center;
+        grid-column: 2/-1;
+        width: auto;
+        justify-self: center;
+    }
+
+
 }
