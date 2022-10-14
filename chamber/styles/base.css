@@ -17,13 +17,13 @@ header {
 
 
 header section {
-    display: flex;
+    display: grid;
     grid-column: 1/6;
     grid-row: 3;
     border: 1px solid #023047;
     background-color: #023047;
     color: #ffb703;
-    padding: 8px 30px;
+    padding: 5px 5px;
     width: 100%;
     justify-content: center;
 }
@@ -140,7 +140,7 @@ main section picture img {/* hero image*/
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background: #023047;
+	background-color: #023047;
     color: #ffb703;
     height: auto;
     width: auto;
@@ -155,7 +155,7 @@ main section picture img {/* hero image*/
     padding: 10px;
     margin-top: 10px;
 }
-.nowE1 {/* Networking*/
+.nowE1 {/* headline Networking*/
     display: grid;
     justify-content: center;
     background-color:#219EBC ;
@@ -171,6 +171,7 @@ main section picture img {/* hero image*/
     text-align: center;
     font-size: 1rem;
     color:white ;
+    padding: 10px;
 }
 
 .Weather{/* Cointain WEATHER*/
@@ -233,6 +234,7 @@ main section picture img {/* hero image*/
     font-size: 0.6rem;
     color: #ffb703;
     line-height: 1.2rem;
+    padding: 10px;
 }
 
 /* SPOTLIGHT SECTION */

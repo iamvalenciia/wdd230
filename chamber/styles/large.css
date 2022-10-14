@@ -7,7 +7,10 @@
         grid-template-columns: .2fr .5fr 2fr .2fr .2fr;
         grid-template-rows: min-content .1fr;
     }
-    
+    header section {
+        display: flex;
+        gap: 20px;
+    }
     nav ul#primaryNav {
         display: flex; 
         justify-self: flex-end; 
@@ -66,76 +69,149 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr 1fr 1fr;
-        margin: 0;
-        gap: 8px;
+        margin-bottom: 10px;
+        gap: 10px;
     }
     /* HERO SECTION  */
-    main section:nth-child(1) {
+    .herodiv {
         grid-column: 2/5;
         grid-row: 1/3;
         height: auto;
         padding: 0px;
+        background-color: #219EBC;
+    }
+    main section picture img {/* hero image*/
+        width: 100%;
+        height: auto;
+    }
+    .stats {
+        top: 330px;
+	    right: 20px;
+        height: auto;
+        width: 200px;
+        font-size: 0.8rem;
+    }
+    .stats2 {
+        font-size: 0.8rem;
     }
     /* JOIN SECTION  */
-    main section:nth-child(4) {
+    .contain_Join {
         grid-column: 1;
         grid-row: 3;
-        padding: 0px;
-        margin-top: 0px;
+        height: 97%;
+    }
+    .join1 {
+        font-size: 0.7rem;
+    }
+    .join2 {
+        font-size: 0.6rem;
     }
     /* NEWS RELEASE SECTION  */
-    main section:nth-child(5) {
+    .newsRelease {
         grid-column: 2/5;
         grid-row: 3;
         margin-top: 0px;
         padding: 0px;
+        height: 100%;
     }
 
 
     /* SPOTLIGHT SECTION  */
-    main section:nth-child(6) {
+    .Spotlight {
         display: flex;
         flex-direction: column;
         grid-column: 5/6;
         grid-row: 1/4;
-        height: auto;
+        height: 99%;
         gap: 10px;
         padding: 10px;
     }
-    main section div:nth-child(1) {
+    .Spot1 {
         margin-right: 0px;
-        height: 200px;
+        height: 100%;
     }
-    main section div:nth-child(2) {
-        height: 200px;
+    .Spo1A{
+        font-size: 0.9rem;
     }
-    main section div:nth-child(3) {
-        display: block;
-        height: 200px;
+    .Spo1C{
+        font-size: 0.9rem;
+    }
+
+    
+    .Spot2 {
+        height: 100%;
+    }
+    .Spot2A{
+        font-size: 0.9rem;
+    }
+    .Spot2C{
+        font-size: 0.9rem;
+    }
+
+
+    .Spot3 {
+        display: grid;
+        height: 100%;
+    }
+    .Spot3A{
+        font-size: 0.9rem;
+    }
+    .Spot3C{
+        font-size: 0.9rem;
+    }
+    .Spot3D {
+        font-size: 0.9rem;
     }
 
     
     /* EVENT SECTION  */
-    main section:nth-child(2) {
+    .nowEvent {
         grid-column: 1;
         grid-row: 1;
         margin-right: 0px;
         padding: 0px;
+        height: 100%;
     }
+    .nowE1 {
+        font-size: 0.7rem;
+    }
+
+
     /* WEATHER SECTION  */
-    main section:nth-child(3) {
+    .Weather {
         grid-column: 1;
         grid-row: 2;
         margin-top: 0px;
         padding: 0px;
-        height: auto;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .Weather picture {
+        float: none;
+    }
+    .weath1 {
+        font-size: 0.7rem;
     }
 
+
     /* FOOTER */
     /* FOOTER */
     /* FOOTER */
 
-    
+
+    .footer3 {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+
+    .foot3D {
+        display: grid;
+        grid-column: 4;
+        grid-row: 1;
+        white-space: nowrap;
+        font-size: 0.8rem;
+    }
 
 
 }

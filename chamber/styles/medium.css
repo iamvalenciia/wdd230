@@ -25,6 +25,11 @@
         border-top: 1px solid white;
     }
 
+    header section {
+        display: flex;
+        gap: 20px;
+    }
+
     /* MAIN */
     /* MAIN */
     /* MAIN */
@@ -49,6 +54,7 @@
         display: grid;
         grid-row: 4;
         justify-items: center;
+
     }
     .join1 {
         display: grid;
@@ -60,11 +66,13 @@
         border-radius: 5px;
         box-shadow: 0 0 15px black;
         font-size: 1rem;
+        padding: 10px;
     }
     .join2{
         display: grid;
         text-align: center;
         font-size: 0.9rem;
+        padding: 10px;
     }
     /* NEWS RELEASE SECTION  */
     .newsRelease {

@@ -54,3 +54,13 @@ switch (day) {
 }
 
 document.querySelector("#time_nowEvent").innerHTML = (`Join us for the grand openning of the Networking Shack, Today ${todayWord} at 7pm`);
+
+if (todayWord == 'Monday'){
+    document.querySelector('#invitation').textContent = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+}
+else if (todayWord == 'Tuesday'){
+    document.querySelector('#invitation').textContent = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.';
+}
+else {
+    document.querySelector('#invitation').textContent = 'An announcement will appear here soon..';
+}
