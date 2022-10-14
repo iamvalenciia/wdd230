@@ -133,7 +133,7 @@ main section picture img {/* hero image*/
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 15px black;
 }
 
 .stats2 {/* welcome to the esmeraldas chamber*/
@@ -204,16 +204,16 @@ main section picture img {/* hero image*/
     padding: 8px;
 }
 
-.contain_Join {
-    background-color: #eee;
-    color: black;
+.contain_Join {/* Join section*/
+    background-color: #023047;
+    color: white;
     height: 200px;
     padding: 10px;
     margin-top: 10px;
     display: none;
 }
 
-.newsRelease {
+.newsRelease {/* news release section*/
     background-color: #023047;
     color: black;
     height: 200px;
@@ -255,7 +255,7 @@ main section picture img {/* hero image*/
     grid-row: 1;
     background-color: white;
     color: #ffb703;
-    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
     padding: 2px;
     gap: 2px;
 
@@ -305,7 +305,7 @@ main section picture img {/* hero image*/
     grid-row: 2;
     background-color: white;
     color: #ffb703;
-    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
     padding: 2px;
     gap: 2px;
 
@@ -355,7 +355,7 @@ main section picture img {/* hero image*/
     grid-row: 2;
     background-color: white;
     color: #ffb703;
-    border: 1px solid gray;
+    box-shadow: 0 0 10px black;
     padding: 2px;
     gap: 2px;
 
@@ -432,10 +432,7 @@ footer {
     display: grid;
     justify-items: center;
 }
-.foot2C {
-    text-decoration: none;
-    color: white;
-}
+
 
 
 
@@ -450,4 +447,23 @@ hr {
 .footer3 {
     display: grid;
     justify-items: center;
+    color: white;
+    padding-top: 10px;
+    gap: 10px;
+}
+.foot3A {
+    border: 1px solid gray;
+    padding:0px 10px;
+}
+.foot3B {
+    border: 1px solid gray;
+    padding:0px 10px;
+}
+.foot3C {
+    border: 1px solid gray;
+    padding:0px 10px;
+}
+.foot3D {
+    border: 1px solid gray;
+    padding:0px 10px;
 }
