@@ -102,9 +102,11 @@
     }
     .join1 {
         font-size: 0.7rem;
+        height: fit-content;
     }
     .join2 {
-        font-size: 0.6rem;
+        font-size: 1rem;
+        text-align: justify;
     }
     /* NEWS RELEASE SECTION  */
     .newsRelease {
@@ -114,7 +116,11 @@
         padding: 0px;
         height: 100%;
     }
-
+    .newsR2 {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        padding: 20px;
+    }
 
     /* SPOTLIGHT SECTION  */
     .Spotlight {
@@ -131,10 +137,16 @@
         height: 100%;
     }
     .Spo1A{
-        font-size: 0.9rem;
+        font-size: 2rem;
+        height: fit-content;
     }
     .Spo1C{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        height: auto;
+    }
+    .Spo1D {
+        font-size: 1.1rem;
+        height: auto;
     }
 
     
@@ -142,25 +154,35 @@
         height: 100%;
     }
     .Spot2A{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        height: fit-content;
     }
     .Spot2C{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        height: auto;
+    }
+    .Spot2D {
+        font-size: 1.1rem;
+        height: auto;
     }
 
 
     .Spot3 {
         display: grid;
         height: 100%;
+        white-space: nowrap;
     }
     .Spot3A{
-        font-size: 0.9rem;
+        font-size: 2rem;
+        height: fit-content;
     }
     .Spot3C{
-        font-size: 0.9rem;
+        font-size: 1.5rem;
+        height: auto;
     }
     .Spot3D {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        height: auto;
     }
 
     
@@ -173,7 +195,13 @@
         height: 100%;
     }
     .nowE1 {
-        font-size: 0.7rem;
+        font-size: 1rem;
+    }
+    .nowE2 {
+        font-size: 1rem;
+    }
+    #time_nowEvent {
+        font-size: 1.2rem;
     }
 
 
@@ -190,7 +218,11 @@
         float: none;
     }
     .weath1 {
-        font-size: 0.7rem;
+        font-size: 01rem;
+    }
+    .weath2 {
+        font-size: 1rem;
+        text-align: center;
     }
 
 

@@ -54,13 +54,11 @@
         display: grid;
         grid-row: 4;
         justify-items: center;
-
     }
     .join1 {
         display: grid;
         background: #ffb703;
         color: black;
-        height: 70%;
         width: 70%;
         text-align: center;
         border-radius: 5px;
