@@ -80,10 +80,6 @@
         padding: 0px;
         background-color: #219EBC;
     }
-    main section picture img {/* hero image*/
-        width: 100%;
-        height: auto;
-    }
     .stats {
         top: 330px;
 	    right: 20px;

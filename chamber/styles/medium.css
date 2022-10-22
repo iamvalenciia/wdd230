@@ -42,10 +42,7 @@
     /* HERO SECTION  */
     .herodiv {
         grid-column: 1/6;
-    }
-    main section picture img {/* hero image*/
-        width: 100%;
-        height: 200px;
+        height: 400px;
     }
     
     /* JOIN SECTION  */

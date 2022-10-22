@@ -31,7 +31,7 @@
 
 <!-- NAVIGATION HERE -->
     <header>
-        <img class="item" src="images/logo.png" alt="logo company">
+        <img class="item" src="images/logoo.webp" alt="logo company">
         <h1 class="item">The Esmeraldas Chamber</h1>
         <a class="item" href="https:facebook.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-fb.png" alt="icon facebook"></a>
         <a class="item" href="https://www.linkedin.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-in.png" alt="lcon linkedIn"></a>
@@ -54,8 +54,11 @@
 <!-- CONTENT HERE -->
     <main>
        <section class="herodiv"> 
-            <picture>
-                <img src="images/rsz_hero.jpg" alt="hero image">
+            <picture class="heroImage">
+                <source media="(max-width: 559px)" srcset="images/smallHero.jpg">
+                <source media="(max-width: 1023px)" srcset="images/mediumHero.jpg">
+                <source media="(max-width: 3000px)" srcset="images/largeHero.jpg">
+                <img src="images/heroImage.jpg" alt="heroimage">
             </picture>
             <section class="stats">
                 <h2>Join the Chamber</h2>
@@ -83,7 +86,9 @@
                 <img src="images/rsz_weather.png" alt="weather image">
             </picture>
             <section class="weath2">
-                <h2>Esmeraldas Wind Speed: 2.5km/h</h2>
+                <h2>Weather: <span id="weather">10</span>°C</h2>
+                <h2>Wind Speed: <span id="windSpeed">5</span>km/h</h2>
+                <h2>Wind Chill: <span id="windChill"></span></h2>
             </section>
        </section>
        <section class="contain_Join">
@@ -152,7 +157,7 @@
     <footer>
         <section class="footer1">
             <picture class="foot1A">
-                <img src="images/logo.png" alt="logo company">
+                <img src="images/logoo.webp" alt="logo company">
             </picture>
             <section class="foot1B">
                 <p class="sizeName">The Esmeraldas Chamber</p>
@@ -190,5 +195,7 @@
     </footer>
     
 <script src="scripts/main.js"></script>
+<script src="scripts/windchill.js"></script>
 </body>
 </html>
+
