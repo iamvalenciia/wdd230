@@ -83,6 +83,12 @@ nav ul li a:hover {
     color: #023047;
 }
 
+/* Class Selectors */
+.active {
+    background-color: #ffb703;
+    color: #023047;
+}
+
 nav ul {display: none;}
 nav ul.open {display: block;}
 
@@ -458,4 +464,42 @@ hr {
 .foot3D {
     border: 1px solid gray;
     padding:0px 10px;
+}
+
+/* DISCOVER */
+/* DISCOVER */
+/* DISCOVER */
+
+.demographic_data_section {
+    margin-bottom: 10px;
+}
+.discover_title {
+    text-align: center;
+}
+.overlay {
+    font-size: 1rem;
+    color: #023047;
+}
+table {
+    font-size: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #023047;
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #023047;
+    color:white;
+}
+
+.discover_image_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 10px;
 }
