@@ -3,7 +3,7 @@
 
 
 
-let weather = parseFloat(document.querySelector('#weather').textContent);
+const weather = parseFloat(document.querySelector('#weather').textContent);
 let speed = parseFloat(document.querySelector('#windSpeed').textContent);
 
 
