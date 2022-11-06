@@ -128,7 +128,7 @@ main {
     width: 100%;
     height: 100%;
 }
-.stats {/* JOIN THE CHAMBER*/
+button {/* JOIN THE CHAMBER*/
 	position: absolute;
 	top: 110px;
 	right: 10px;
@@ -140,6 +140,15 @@ main {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
+}
+
+button:hover {
+    size: 20px;
+    text-decoration: none;
+}
+
+button:link {
+    text-decoration: none;
 }
 
 .stats2 {/* welcome to the esmeraldas chamber*/
@@ -505,4 +514,169 @@ tr:nth-child(even) {
     grid-template-columns: 1fr;
     text-align: center;
     gap: 10px;
+}
+
+/******** JOIN **********/
+.joinpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join-dv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.joinpage h2:nth-child(1) {
+    font-size: 2rem;
+    font-family: 'Exo', sans-serif;
+}
+
+/******** FORM **********/
+
+
+.form {
+    height: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form h2 {
+    margin-bottom: 0;
+}
+
+form legend {
+    color: #001D3D;
+    margin: 0;
+    font-family: "Kanit",sans-serif;
+    font-style: italic;
+    padding: 0 .5rem;
+    
+}
+form label.top, form div {
+    display: block;
+    color: #000814;
+    margin: 1rem 0;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #001D3D;
+    margin-left: 1.5rem;
+}
+
+form label textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    max-width: 20rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: none;
+    border-radius: 10px;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #FFC300;
+    color: #000;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+}
+form input.submitBtn:hover {
+    background-color: #FFD60A;
+}
+
+form label.top input:required {
+    background-color: none;
+    color: white;
+}
+
+form label.top input:required:valid {
+    background-color: gray;
+    color: white;
+}
+/******** MEMBERSHIP PRICES **********/
+.membership-prices {
+    height: auto;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+}
+.prices {
+    width: 100%;
+    height: auto;
+    background: none;
+    box-shadow: 0 2px 5px #000
+}
+.prices h3 {
+    color: #003566;
+    font-size: 3rem;
+    background: gray;
+    overflow: hidden;
+}
+.prices h4 {
+    font-size: 2rem;
+}
+.prices span {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.np-membership h3 {
+    background: #90ee90;
+}
+.bronze-membership h3 {
+    background: #cd7f32;
+}
+.silver-membership h3 {
+    background: #D3D3D3;
+}
+.gold-membership h3 {
+    background: #ffd700;
+}
+
+/******** THANKYOU PAGE ******/
+.thankyou div {
+    height: auto;
+    text-align: center;
+    color:black ;
+    padding: 20px;
+    font-size: 2rem;
 }

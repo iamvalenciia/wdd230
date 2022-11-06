@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Chamber Home Page Build</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+
+
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<!-- phone-default -->
+<link href="styles/base.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="styles/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="styles/large.css" rel="stylesheet">
+
+
+    
+</head>
+<body>
+
+<!-- NAVIGATION HERE -->
+    <header>
+        <img class="item" src="images/logoo.webp" alt="logo company">
+        <h1 class="item">The Esmeraldas Chamber</h1>
+        <a class="item" href="https:facebook.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-fb.png" alt="icon facebook"></a>
+        <a class="item" href="https://www.linkedin.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-in.png" alt="lcon linkedIn"></a>
+        <botton class="item" id="hamburgerBtn"><span>&#9776</span><span>X</span></botton>
+        <nav class="item">
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>    
+            </ul>
+        </nav>
+        <section id="sectionMessage">
+            <p id="the_time"></p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
+    </header>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="joinpage">
+        <h2>Join the Chamber</h2>
+        <div class="join-dv">
+        
+            <div class="form">
+                <form method="get" action="thankyou.html">
+
+                
+                    <fieldset>
+                        <legend>Member Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" placeholder="First Name" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" placeholder="Last Name" required></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="example@yourdomain.com" required></label>
+                        <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="112223334444" required></label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name <input type="text" name="bname"  placeholder="Your Business" required></label>
+                        <label class="top">Business Position <input type="text" name="bposition" placeholder="Your Position" pattern="[a-zA-Z0-9- ]{7,}"></label>
+                        <label class="top">Business Description <textarea name="bdescription" rows="4"></textarea></label>
+                    </fieldset>    
+
+                    <div class="membership-prices">
+
+                        <div class="np-membership prices">
+                            <h3>Free</h3>
+                            <h4>$0/month</h4>
+                            <span>Read free lectures about Esmeraldas Chamber</span>
+                        </div>
+        
+                        <div class="bronze-membership prices">
+                            <h3>Bronze</h3>
+                            <h4>$25/month</h4>
+                            <span>20% discount entry for events</span>
+                            <span>30% discount on advertising</span>
+        
+                        </div>
+        
+                        <div class="silver-membership prices">
+                            <h3>Silver</h3>
+                            <h4>$50/month</h4>
+                            <span>50% discount entry for events</span>
+                            <span>40% discount on advertising</span>
+                        </div>
+        
+                        <div class="gold-membership prices">
+                            <h3>Gold</h3>
+                            <h4>$100/month</h4>
+                            <span>Free entry for events</span>
+                            <span>50% discount on advertising</span>
+                            <span>VIP access event</span>
+                        </div>
+        
+                    </div>
+
+
+                    <fieldset>
+                        <legend>Select your Membership</legend>
+                        <label class="sbs"><input type="radio" name="membership" value="np" required> Free Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="bronze" required> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="silver" required> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="gold" required> Gold Membership</label>
+                        
+                    </fieldset>
+
+                    <input type="hidden" id="hidden-data-value">
+                    <input type="submit" value="Join" class="submitBtn">
+
+                </form>
+            </div>
+        </div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <section class="footer1">
+            <picture class="foot1A">
+                <img src="images/logoo.webp" alt="logo company">
+            </picture>
+            <section class="foot1B">
+                <p class="sizeName">The Esmeraldas Chamber</p>
+            </section>
+            <section class="foot1C">
+                <P>Juan Leon Mera #74, 10 de agosto</P>
+            </section>
+        </section>
+        <section class="footer2">
+            <section class="foot2A">
+                <p>chamber.esme@gmail.com</p>
+            </section>
+            <section class="foot2B">
+                <p>+(593) 2024-5410</p>
+            </section>
+            <section class="foot2C">
+                <p><a href="https://www.google.com/maps/place/Esmeraldas/@0.9666865,-79.6773791,13z/data=!4m5!3m4!1s0x8fd4beb08afdae79:0x58e2517154076f6!8m2!3d0.9681789!4d-79.6517202"  target=”_blank”>📍location Map</a></p>
+            </section>
+        </section>
+        <hr>
+        <section class="footer3">
+            <section class="foot3A">
+                <p><span id="year" ></span> The Esmeraldas Chamber</p>
+            </section>
+            <section class="foot3B">
+                <p><b>Juan Valencia</b></p>
+            </section>
+            <section class="foot3C">
+                <p>WDD 230 Project</p>
+            </section>
+            <section class="foot3D">
+                <p id="the_time_footer"></p>
+            </section>
+        </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lazyimages.js"></script>
+    <script src="scripts/uservisit.js"></script>
+</body>
+</html>
+

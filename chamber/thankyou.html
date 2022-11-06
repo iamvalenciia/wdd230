@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Chamber Home Page Build</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/favicon.ico">
+
+
+
+<!-- STYLE SHEETS -->
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<!-- phone-default -->
+<link href="styles/base.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="styles/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="styles/large.css" rel="stylesheet">
+
+
+    
+</head>
+<body>
+
+<!-- NAVIGATION HERE -->
+    <header>
+        <img class="item" src="images/logoo.webp" alt="logo company">
+        <h1 class="item">The Esmeraldas Chamber</h1>
+        <a class="item" href="https:facebook.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-fb.png" alt="icon facebook"></a>
+        <a class="item" href="https://www.linkedin.com/" target="_blank"><img class="icon-media" src="images/rsz_icon-in.png" alt="lcon linkedIn"></a>
+        <botton class="item" id="hamburgerBtn"><span>&#9776</span><span>X</span></botton>
+        <nav class="item">
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>    
+            </ul>
+        </nav>
+        <section id="sectionMessage">
+            <p id="the_time"></p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
+    </header>
+    
+    
+<!-- CONTENT HERE -->
+    <main class="thankyou">
+        <div>
+            <h2>Welcome to Esmeraldas Chamber</h2>
+            <p>We welcome you to the chamber of commerce. To continue your subscription, we have sent you an e-mail. Please check your inbox or spam folder. If the email has not arrived, contact us and we will resolve it as soon as possible.</p>
+        </div>
+
+
+    </main>
+    
+<!-- FOOTER HERE -->   
+    <footer>
+        <section class="footer1">
+            <picture class="foot1A">
+                <img src="images/logoo.webp" alt="logo company">
+            </picture>
+            <section class="foot1B">
+                <p class="sizeName">The Esmeraldas Chamber</p>
+            </section>
+            <section class="foot1C">
+                <P>Juan Leon Mera #74, 10 de agosto</P>
+            </section>
+        </section>
+        <section class="footer2">
+            <section class="foot2A">
+                <p>chamber.esme@gmail.com</p>
+            </section>
+            <section class="foot2B">
+                <p>+(593) 2024-5410</p>
+            </section>
+            <section class="foot2C">
+                <p><a href="https://www.google.com/maps/place/Esmeraldas/@0.9666865,-79.6773791,13z/data=!4m5!3m4!1s0x8fd4beb08afdae79:0x58e2517154076f6!8m2!3d0.9681789!4d-79.6517202"  target=”_blank”>📍location Map</a></p>
+            </section>
+        </section>
+        <hr>
+        <section class="footer3">
+            <section class="foot3A">
+                <p><span id="year" ></span> The Esmeraldas Chamber</p>
+            </section>
+            <section class="foot3B">
+                <p><b>Juan Valencia</b></p>
+            </section>
+            <section class="foot3C">
+                <p>WDD 230 Project</p>
+            </section>
+            <section class="foot3D">
+                <p id="the_time_footer"></p>
+            </section>
+        </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/lazyimages.js"></script>
+    <script src="scripts/uservisit.js"></script>
+</body>
+</html>
+
