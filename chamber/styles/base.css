@@ -553,6 +553,13 @@ tr:nth-child(even) {
     margin: 0;
 }
 
+legend {
+    font-size: 1rem;
+}
+.form .top {
+    font-size: 1rem;
+}
+
 .form h2 {
     margin-bottom: 0;
 }
@@ -573,7 +580,7 @@ form label.top, form div {
 
 form label.top input, form label.top select {
     display: block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: 1rem;
@@ -627,6 +634,10 @@ form label.top input:required:valid {
     background-color: gray;
     color: white;
 }
+
+.form .sbs {
+    font-size: 1rem;
+}
 /******** MEMBERSHIP PRICES **********/
 .membership-prices {
     height: auto;
@@ -660,16 +671,17 @@ form label.top input:required:valid {
 }
 
 .np-membership h3 {
-    background: #90ee90;
+    background: rgb(205, 127, 50);
 }
 .bronze-membership h3 {
-    background: #cd7f32;
-}
-.silver-membership h3 {
     background: #D3D3D3;
 }
-.gold-membership h3 {
+.silver-membership h3 {
     background: #ffd700;
+}
+.gold-membership h3 {
+    background: #287233;
+    color: white;
 }
 
 /******** THANKYOU PAGE ******/
