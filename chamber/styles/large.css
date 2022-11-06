@@ -80,12 +80,9 @@
         padding: 0px;
         background-color: #219EBC;
     }
-    .stats {
-        top: 330px;
-	    right: 20px;
-        height: auto;
-        width: 200px;
-        font-size: 0.8rem;
+    button {
+        top:500px;
+        font-size: 2rem;
     }
     .stats2 {
         font-size: 0.8rem;
@@ -272,6 +269,12 @@
     .discover_image_section{
         grid-column: 2/3;
         text-align: center;
+    }
+
+    .thankyou {
+        display: grid;
+        grid-column: 1/6;
+        grid-row: 1/4;
     }
 
 

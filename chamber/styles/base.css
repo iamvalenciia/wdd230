@@ -140,6 +140,7 @@ button {/* JOIN THE CHAMBER*/
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -148,6 +149,10 @@ button:hover {
 }
 
 button:link {
+    text-decoration: none;
+}
+
+button a {
     text-decoration: none;
 }
 
@@ -162,6 +167,7 @@ button:link {
     opacity: 0.8;
     padding: 10px;
 }
+
 
 .nowEvent {/* Cointain  NETWORKING*/
     background-color: #023047;
@@ -620,6 +626,7 @@ form input.submitBtn {
     margin: 0 0 2rem 5%;
     width: 96%;
     max-width: 20rem;
+    font-size: 1rem;
 }
 form input.submitBtn:hover {
     background-color: #FFD60A;
@@ -685,7 +692,7 @@ form label.top input:required:valid {
 }
 
 /******** THANKYOU PAGE ******/
-.thankyou div {
+.thankyou {
     height: auto;
     text-align: center;
     color:black ;
