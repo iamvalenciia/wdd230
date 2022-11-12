@@ -1,0 +1,20 @@
+body {
+    font-family: 'Courier New', monospace;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5px;
+}
+
+.cards section {
+    border: 1px solid gray;
+    padding: 10px;
+    justify-content: center;
+}
+
+footer, header {
+    text-align: center;
+}
