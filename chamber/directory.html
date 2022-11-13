@@ -40,7 +40,7 @@
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
                 <li><a href="#">Contact</a></li>    
             </ul>
         </nav>
@@ -52,74 +52,8 @@
     
     
 <!-- CONTENT HERE -->
-    <main class="joinpage">
-        <h2>Join the Chamber</h2>
-        <div class="join-dv">
-        
-            <div class="form">
-                <form method="get" action="thankyou.html">
-
-                
-                    <fieldset>
-                        <legend>Member Information</legend>
-                        <label class="top">First Name* <input type="text" name="fname" placeholder="First Name" required></label>
-                        <label class="top">Last Name* <input type="text" name="lname" placeholder="Last Name" required></label>
-                        <label class="top">Email* <input type="email" name="email" placeholder="example@yourdomain.com" required></label>
-                        <label class="top">Cell Phone* <input type="tel" name="phone" placeholder="112223334444" required></label>
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Business Information</legend>
-                        <label class="top">Business Name <input type="text" name="bname"  placeholder="Your Business" required></label>
-                        <label class="top">Business Position <input type="text" name="bposition" placeholder="Your Position" pattern="[a-zA-Z0-9- ]{7,}"></label>
-                        <label class="top">Business Description <textarea name="bdescription" rows="4"></textarea></label>
-                    </fieldset>    
-
-                    <div class="membership-prices">
-
-                        <div class="np-membership prices">
-                            <h3>Bronze</h3>
-                            <h4>$0/month</h4>
-                            <span>Read free lectures about Esmeraldas Chamber</span>
-                        </div>
-        
-                        <div class="bronze-membership prices">
-                            <h3>Silver</h3>
-                            <h4>$25/month</h4>
-                            <span>10% discount for participate in events</span>
-        
-                        </div>
-                        <div class="silver-membership prices">
-                            <h3>Gold</h3>
-                            <h4>$50/month</h4>
-                            <span>50% discount for participate in events</span>
-                        </div>
-        
-                        <div class="gold-membership prices">
-                            <h3>Platinum</h3>
-                            <h4>$100/month</h4>
-                            <span>Free entry for events</span>
-                            <span>discount on advertising</span>
-                            <span>VIP access event</span>
-                        </div>
-        
-                    </div>
-
-
-                    <fieldset>
-                        <legend>Select your Membership</legend>
-                        <label class="sbs"><input type="radio" name="membership" value="np" required> Free Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="bronze" required> Bronze Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="silver" required> Silver Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="gold" required> Gold Membership</label>
-                    </fieldset>
-
-                    <input type="hidden" id="hidden-data-value">
-                    <input type="submit" value="Join" class="submitBtn">
-
-                </form>
-            </div>
-        </div>
+    <main>
+        <div class="cards"></div>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -162,6 +96,7 @@
             </section>
         </section>
     </footer>
+    <script src="scripts/companies.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/lazyimages.js"></script>
     <script src="scripts/uservisit.js"></script>
