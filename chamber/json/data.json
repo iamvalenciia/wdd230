@@ -2,26 +2,85 @@
     "companies": [
       {
         "name": "Macdonals",
-        "lastname": "Smith",
-        "birthdate": "23 December 1805",
-        "death": "27 June 1844",
-        "length": 14,
-        "order": 1,
-        "birthplace": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "address": "street Quito and Manabí",
+        "phonenumber": "+593 994732982",
+        "websiteLink": "https://www.mcdonalds.com.ec/",
+        "websiteName": "mcdonalds.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/mcdonalds-logo_0.png"
       },
       {
-        "name": "Joseph",
-        "lastname": "Smith",
-        "birthdate": "23 December 1805",
-        "death": "27 June 1844",
-        "length": 14,
-        "order": 1,
-        "birthplace": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "name": "Kentucky Fried Chicken",
+        "address": "Malecon Esmeraldas",
+        "phonenumber": "+593 0980203813",
+        "websiteLink": "https://www.kfc.com.ec/",
+        "websiteName": "kfc.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/kfc-logo_0.png"
+      },
+      {
+        "name": "Telepizza",
+        "address": "Av viva #74 y Colon",
+        "phonenumber": "+593 0940523716",
+        "websiteLink": "hhttps://www.telepizza.es/",
+        "websiteName": "telepizza.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/telepizza-logo_0.png"
+      },
+      {
+        "name": "Carls Junior",
+        "address": "Street viva Siempre y Amazonas",
+        "phonenumber": "+593 097412546",
+        "websiteLink": "https://carlsjr.com.ec/",
+        "websiteName": "carlsjr.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/carls-jr-logo_0.jpg"
+      },
+      {
+        "name": "Steak and Shake",
+        "address": "Malecon Esmeraldas, Av Siempre",
+        "phonenumber": "+593 0980203813",
+        "websiteLink": "https://www.steaknshake.com/",
+        "websiteName": "steaknshake.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/steak-n-shake-logo_0.png"
+      },
+      {
+        "name": "Little Caesars",
+        "address": "Av Siempre, Port #74",
+        "phonenumber": "+593 0980203813",
+        "websiteLink": "https://littlecaesars.com/en-us/",
+        "websiteName": "littlecaesars.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/little-caesars-logo_0.png"
+      },
+      {
+        "name": "Church's Chiken",
+        "address": "Av port#72, street p",
+        "phonenumber": "+593 0945621783",
+        "websiteLink": "https://www.churchs.com/",
+        "websiteName": "churchs.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/churchs-chicken-logo_0.png"
+      },
+      {
+        "name": "Planet Hollywood",
+        "address": "Av Revenue, street H",
+        "phonenumber": "+593 0980203813",
+        "websiteLink": "https://www.planethollywoodintl.com/restaurants/",
+        "websiteName": "planethollywood.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/planet-hollywood-logo_0.png"
+      },
+      {
+        "name": "Dunkin Donuts",
+        "address": "Pricipal Malecon, Street P",
+        "phonenumber": "+593 0970498615",
+        "websiteLink": "https://www.dunkindonuts.ec/",
+        "websiteName": "dunkindonuts.com",
+        "level": "Platinum",
+        "image": "https://www.logosurfer.com/wp-content/uploads/2018/03/dunkin-donuts-logo_0.jpg"
       }
-      
     ]
   }
+  

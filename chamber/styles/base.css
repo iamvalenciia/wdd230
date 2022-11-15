@@ -128,7 +128,7 @@ main {
     width: 100%;
     height: 100%;
 }
-button {/* JOIN THE CHAMBER*/
+.stats button {/* JOIN THE CHAMBER*/
 	position: absolute;
 	top: 110px;
 	right: 10px;
@@ -699,3 +699,143 @@ form label.top input:required:valid {
     padding: 20px;
     font-size: 2rem;
 }
+
+/******** DIRECTORY PAGE ******/
+.directory .cards img {
+    height: 150px;
+    width: 200px;
+}
+
+/*Telepiza img*/
+.directory .cards section:nth-child(3) img {
+    width: 300px;
+}
+
+/*little caesars img*/
+.directory .cards section:nth-child(6) img {
+    width: 300px;
+    height: 80px;
+}
+
+/*Dunkin Donuts img*/
+.directory .cards section:nth-child(9) img {
+    width: 300px;
+}
+
+
+.directory h1 {
+    text-align: center;
+}
+
+.directory .menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+    font-size: 1rem;
+}
+
+.directory .menu #grid {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 10px 5px;  
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffb703;
+    color: black;
+    width: 70px;
+}
+
+.directory .menu #grid:hover{
+    background-color: #FFC942;
+    color: black;
+}
+
+.directory .menu #list {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffb703;
+    color: black;
+    width: 70px;
+}
+
+.directory .menu #list:hover{
+    background-color: #FFC942;
+    color: black;
+    
+}
+
+.cards.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards.list {
+    display: inline;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+    border: 1px solid gray;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+}
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+/* ******* DIRECTORY PAGE BUTTON GRID AND LIST****
+.grid {
+	display: grid;
+	align-items: center;
+}
+
+.list {
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */

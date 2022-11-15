@@ -229,5 +229,17 @@
         text-align: center;
     }
 
+    /******** DIRECTORY PAGE ******/
+
+    .directory {
+        grid-column: 1/6;
+    }
+
+    .cards {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
 
 }

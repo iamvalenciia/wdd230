@@ -14,22 +14,22 @@ fetch(requestURL).then(function (response) {
     let card = document.createElement('section');
     let logo = document.createElement('img');
     let h2 = document.createElement('h2');
-    let address = document.createElement('span');
-    let phone = document.createElement('span');
-    let membershipLevel = document.createElement('span');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let membershipLevel = document.createElement('sp');
     let website = document.createElement('a');
 
     
     h2.textContent = `${business.name} `;
     address.textContent = `${business.address}`
-    website.textContent = `${business.website}`
+    website.textContent = `${business.websiteName}`
     phone.textContent = `${business.phonenumber}`
 
-    logo.setAttribute('src', business.logo);
+    logo.setAttribute('src', business.image);
     logo.setAttribute('alt', `${business.name} logo`);
     logo.setAttribute('loading', 'lazy');
 
-    website.setAttribute("href", business.website);
+    website.setAttribute("href", business.websiteLink);
     website.setAttribute("target", "_blank");
 
     card.appendChild(logo);
@@ -55,6 +55,7 @@ gridbutton.addEventListener("click", () => {
 	// example using arrow function
 	display.classList.add("grid");
 	display.classList.remove("list");
+  console.log('click in grid');
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
@@ -62,4 +63,5 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
 	display.classList.add("list");
 	display.classList.remove("grid");
+  console.log('Showing a list');
 }

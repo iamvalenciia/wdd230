@@ -80,7 +80,7 @@
         padding: 0px;
         background-color: #219EBC;
     }
-    button {
+    .stats button {
         top:500px;
         font-size: 2rem;
     }
@@ -296,6 +296,13 @@
         grid-row: 1;
         white-space: nowrap;
         font-size: 0.8rem;
+    }
+
+    /******** DIRECTORY PAGE ******/
+
+    .directory {
+        display: grid;
+        grid-row: 1/4;
     }
 
 
