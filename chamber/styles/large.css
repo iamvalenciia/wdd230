@@ -190,16 +190,15 @@
     .nowE1 {
         font-size: 1rem;
     }
-    .nowE2 {
-        font-size: 1rem;
-    }
-    #time_nowEvent {
-        font-size: 1.2rem;
+
+    .nowE3 {
+        font-size: 1.5rem;
     }
 
 
     /* WEATHER SECTION  */
     .Weather {
+        display: grid;
         grid-column: 1;
         grid-row: 2;
         margin-top: 0px;
@@ -207,16 +206,25 @@
         height: 100%;
         margin-top: 10px;
     }
-    .Weather picture {
-        float: none;
+    .Weather figure {
+        display: grid;
     }
     .weath1 {
-        font-size: 01rem;
+        font-size: 1rem;
+    }
+    .weath1 h2{
+        font-size: 1rem;
+        margin-top: 19px;
+        margin-bottom: 19px;
     }
     .weath2 {
+        display: inline-block;
         font-size: 1rem;
         text-align: center;
-        padding-top: 3rem;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        line-height: normal;
     }
 
     /* DISCOVER HOVER IMAGES */
