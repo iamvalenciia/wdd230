@@ -167,6 +167,12 @@
         margin: auto;
     }
 
+    .footerIMG {
+        display: grid;
+        width: 140px;
+        height: 140px;
+    }
+
     .footer3 {
         display: grid;
         white-space: normal;
