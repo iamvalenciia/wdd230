@@ -612,7 +612,6 @@ form label textarea {
 }
 
 form fieldset {
-    margin: 2rem 0;
     border: none;
     border-radius: 10px;
 }
