@@ -144,7 +144,6 @@ main {
 }
 
 button:hover {
-    size: 20px;
     text-decoration: none;
 }
 
@@ -633,7 +632,7 @@ form input.submitBtn:hover {
 }
 
 form label.top input:required {
-    background-color: none;
+    background-color: white;
     color: white;
 }
 
