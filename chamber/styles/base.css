@@ -523,41 +523,6 @@ tr:nth-child(even) {
     gap: 10px;
 }
 
-<<<<<<< HEAD
-/* join form */
-#contactMain {
-    width: 100%;
-}
-
-#contactMain form {
-    padding: 20px;
-    grid-column: 1/6;
-    min-width: 50%;
-    justify-self: center;
-}
-#contactMain .top, .textarea {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
-}
-#contactMain .top input {
-    padding: 5px 2%;
-    border-radius: 5px;
-}
-#contactMain fieldset {
-    border: 0px;
-}
-#contactMain .sbs {
-    display: block;
-    padding: 0.75rem 0;
-    color: #505050;
-    font-size: 1.3rem;
-    font-style: italic;
-}
-=======
 /******** JOIN **********/
 .joinpage {
     display: flex;
@@ -840,4 +805,43 @@ form label.top input:required:valid {
 }
 
 
->>>>>>> 9bbddc38058ea2d38cc365638e868a04c30770dd
+#thankMain {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* join form */
+#contactMain {
+    width: 100%;
+    grid-template-rows: 1fr;
+}
+
+#contactMain form {
+    padding: 20px;
+    grid-column: 1/6;
+    min-width: 50%;
+    justify-self: center;
+}
+#contactMain .top, .textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+#contactMain .top input {
+    padding: 5px 2%;
+    border-radius: 5px;
+}
+#contactMain fieldset {
+    border: 0px;
+}
+#contactMain .sbs {
+    display: block;
+    padding: 0.75rem 0;
+    color: #505050;
+    font-size: 1.3rem;
+    font-style: italic;
+}

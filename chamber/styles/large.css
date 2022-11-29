@@ -80,13 +80,6 @@
         padding: 0px;
         background-color: #219EBC;
     }
-<<<<<<< HEAD
-=======
-    .stats button {
-        top:500px;
-        font-size: 2rem;
-    }
->>>>>>> 9bbddc38058ea2d38cc365638e868a04c30770dd
     .stats2 {
         font-size: 0.8rem;
     }
@@ -282,16 +275,10 @@
         text-align: center;
     }
 
-<<<<<<< HEAD
-    #contactMain {
-        display: grid;
-        grid-template-rows: 1fr;
-=======
     .thankyou {
         display: grid;
         grid-column: 1/6;
         grid-row: 1/4;
->>>>>>> 9bbddc38058ea2d38cc365638e868a04c30770dd
     }
 
 
