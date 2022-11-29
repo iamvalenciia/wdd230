@@ -128,7 +128,7 @@ main {
     width: 100%;
     height: 100%;
 }
-.stats {/* JOIN THE CHAMBER*/
+.stats button {/* JOIN THE CHAMBER*/
 	position: absolute;
 	top: 110px;
 	right: 10px;
@@ -140,9 +140,23 @@ main {
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
+    font-size: 1rem;
 }
 
-button {/* welcome to the esmeraldas chamber*/
+button:hover {
+    size: 20px;
+    text-decoration: none;
+}
+
+button:link {
+    text-decoration: none;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.stats2 {/* welcome to the esmeraldas chamber*/
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -153,6 +167,7 @@ button {/* welcome to the esmeraldas chamber*/
     opacity: 0.8;
     padding: 10px;
 }
+
 
 .nowEvent {/* Cointain  NETWORKING*/
     background-color: #023047;
@@ -172,7 +187,7 @@ button {/* welcome to the esmeraldas chamber*/
     justify-content: center;
     font-size: .7rem;
 }
-#time_nowEvent { /* Thursday at 7pm.....*/
+.nowE3 { /* Thursday at 7pm.....*/
     display: grid;
     text-align: center;
     font-size: 1rem;
@@ -187,16 +202,17 @@ button {/* welcome to the esmeraldas chamber*/
     padding: 10px;
     margin-top: 10px;
 }
-.Weather picture img{/* image cloud and sun*/
-    width: auto;
-    height: 70px;
+.Weather figure img{/* image cloud and sun*/
+    width: 100%;
+    height: 100%;
     
 }
-.Weather picture {/* box of image*/
+.Weather figure {/* box of image*/
     display: grid;
     float: left;
     justify-content: center;
     padding: 10px;
+    margin: 0;
 }
 .weath1 {/* Weather cloud*/
     display: grid;
@@ -507,36 +523,295 @@ tr:nth-child(even) {
     gap: 10px;
 }
 
-/* join form */
-#contactMain {
-    width: 100%;
-}
-
-#contactMain form {
-    padding: 20px;
-    grid-column: 1/6;
-    min-width: 50%;
-    justify-self: center;
-}
-#contactMain .top, .textarea {
+/******** JOIN **********/
+.joinpage {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 5px;
-    padding: 10px;
+    align-items: center;
 }
-#contactMain .top input {
-    padding: 5px 2%;
-    border-radius: 5px;
+.join-dv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    
 }
-#contactMain fieldset {
-    border: 0px;
+
+.joinpage h2:nth-child(1) {
+    font-size: 2rem;
+    font-family: 'Exo', sans-serif;
 }
-#contactMain .sbs {
-    display: block;
-    padding: 0.75rem 0;
-    color: #505050;
-    font-size: 1.3rem;
+
+/******** FORM **********/
+
+
+.form {
+    height: auto;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-size: 1rem;
+}
+.form .top {
+    font-size: 1rem;
+}
+
+.form h2 {
+    margin-bottom: 0;
+}
+
+form legend {
+    color: #001D3D;
+    margin: 0;
+    font-family: "Kanit",sans-serif;
     font-style: italic;
+    padding: 0 .5rem;
+    
+}
+form label.top, form div {
+    display: block;
+    color: #000814;
+    margin: 1rem 0;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1.5rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 1rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #001D3D;
+    margin-left: 1.5rem;
+}
+
+form label textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    max-width: 20rem;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: none;
+    border-radius: 10px;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #FFC300;
+    color: #000;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 5%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1rem;
+}
+form input.submitBtn:hover {
+    background-color: #FFD60A;
+}
+
+form label.top input:required {
+    background-color: none;
+    color: white;
+}
+
+form label.top input:required:valid {
+    background-color: gray;
+    color: white;
+}
+
+.form .sbs {
+    font-size: 1rem;
+}
+/******** MEMBERSHIP PRICES **********/
+.membership-prices {
+    height: auto;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+}
+.prices {
+    width: 100%;
+    height: auto;
+    background: none;
+    box-shadow: 0 2px 5px #000
+}
+.prices h3 {
+    color: #003566;
+    font-size: 3rem;
+    background: gray;
+    overflow: hidden;
+}
+.prices h4 {
+    font-size: 2rem;
+}
+.prices span {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.np-membership h3 {
+    background: rgb(205, 127, 50);
+}
+.bronze-membership h3 {
+    background: #D3D3D3;
+}
+.silver-membership h3 {
+    background: #ffd700;
+}
+.gold-membership h3 {
+    background: #287233;
+    color: white;
+}
+
+/******** THANKYOU PAGE ******/
+.thankyou {
+    height: auto;
+    text-align: center;
+    color:black ;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+/******** DIRECTORY PAGE ******/
+.directory .cards img {
+    height: 150px;
+    width: 200px;
+}
+
+/*Telepiza img*/
+.directory .cards section:nth-child(3) img {
+    width: 300px;
+}
+
+/*little caesars img*/
+.directory .cards section:nth-child(6) img {
+    width: 300px;
+    height: 80px;
+}
+
+/*Dunkin Donuts img*/
+.directory .cards section:nth-child(9) img {
+    width: 300px;
+}
+
+
+.directory h1 {
+    text-align: center;
+}
+
+.directory .menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px;
+    font-size: 1rem;
+}
+
+.directory .menu #grid {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 10px 5px;  
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffb703;
+    color: black;
+    width: 70px;
+}
+
+.directory .menu #grid:hover{
+    background-color: #FFC942;
+    color: black;
+}
+
+.directory .menu #list {
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffb703;
+    color: black;
+    width: 70px;
+}
+
+.directory .menu #list:hover{
+    background-color: #FFC942;
+    color: black;
+    
+}
+
+.cards.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards.list {
+    display: inline;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards section {
+    border: 1px solid gray;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+}
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+
+#thankMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    justify-items: center;
+    line-height: 0.1rem;
+
 }

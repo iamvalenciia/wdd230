@@ -40,8 +40,8 @@
             <ul id="primaryNav">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Contact</a></li>    
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contactus.html">Contact</a></li>    
             </ul>
         </nav>
         <section id="sectionMessage">
@@ -61,7 +61,7 @@
                 <img src="images/heroImage.jpg" alt="heroimage">
             </picture>
             <section class="stats">
-                <h2>Join the Chamber</h2>
+                <button> <a href="join.html">Join the Chamber</a> </button>
             </section>
             <section class="stats2">
                 <h2>Welcome to the Esmerladas Chamber</h2>
@@ -80,14 +80,15 @@
        </section>
        <section class="Weather">
             <section class="weath1">
-                <h2>Weather ☁️</h2>
+                <h2>Esmeraldas ☁️</h2>
             </section>
-            <picture>
-                <img src="images/rsz_weather.png" alt="weather image">
-            </picture>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
             <section class="weath2">
-                <h2>Weather: <span id="weather">10</span>°C</h2>
-                <h2>Wind Speed: <span id="windSpeed">5</span>km/h</h2>
+                <h2>Weather: <span id="weather"></span>°C</h2>
+                <h2>Wind Speed: <span id="windSpeed"></span> km/h</h2>
                 <h2>Wind Chill: <span id="windChill"></span></h2>
             </section>
        </section>
@@ -195,7 +196,7 @@
     </footer>
     
 <script src="scripts/main.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/weatherapi.js"></script>
 </body>
 </html>
 
