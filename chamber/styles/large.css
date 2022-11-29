@@ -80,6 +80,13 @@
         padding: 0px;
         background-color: #219EBC;
     }
+<<<<<<< HEAD
+=======
+    .stats button {
+        top:500px;
+        font-size: 2rem;
+    }
+>>>>>>> 9bbddc38058ea2d38cc365638e868a04c30770dd
     .stats2 {
         font-size: 0.8rem;
     }
@@ -186,16 +193,15 @@
     .nowE1 {
         font-size: 1rem;
     }
-    .nowE2 {
-        font-size: 1rem;
-    }
-    #time_nowEvent {
-        font-size: 1.2rem;
+
+    .nowE3 {
+        font-size: 1.5rem;
     }
 
 
     /* WEATHER SECTION  */
     .Weather {
+        display: grid;
         grid-column: 1;
         grid-row: 2;
         margin-top: 0px;
@@ -203,16 +209,25 @@
         height: 100%;
         margin-top: 10px;
     }
-    .Weather picture {
-        float: none;
+    .Weather figure {
+        display: grid;
     }
     .weath1 {
-        font-size: 01rem;
+        font-size: 1rem;
+    }
+    .weath1 h2{
+        font-size: 1rem;
+        margin-top: 19px;
+        margin-bottom: 19px;
     }
     .weath2 {
+        display: inline-block;
         font-size: 1rem;
         text-align: center;
-        padding-top: 3rem;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+        line-height: normal;
     }
 
     /* DISCOVER HOVER IMAGES */
@@ -267,9 +282,16 @@
         text-align: center;
     }
 
+<<<<<<< HEAD
     #contactMain {
         display: grid;
         grid-template-rows: 1fr;
+=======
+    .thankyou {
+        display: grid;
+        grid-column: 1/6;
+        grid-row: 1/4;
+>>>>>>> 9bbddc38058ea2d38cc365638e868a04c30770dd
     }
 
 
@@ -291,6 +313,13 @@
         grid-row: 1;
         white-space: nowrap;
         font-size: 0.8rem;
+    }
+
+    /******** DIRECTORY PAGE ******/
+
+    .directory {
+        display: grid;
+        grid-row: 1/4;
     }
 
 
