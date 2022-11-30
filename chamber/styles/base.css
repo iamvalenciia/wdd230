@@ -266,7 +266,7 @@ button a {
 .Spotlight {
     grid-template-columns: 1fr;
     display: grid;
-    background-color: #219EBC;
+    background-color: #023047;
     color: black;
     height: 600px;
     padding: 15px;
