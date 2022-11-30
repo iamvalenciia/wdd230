@@ -248,4 +248,25 @@
     }
 
 
+    /*Spotligh JavaScript*/
+
+
+    .div2,
+    .div1 {
+        display: grid;
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .div3 {
+        display: none;
+    }
+
+    .div1 img,
+    .div2 img,
+    .div3 img {
+        width: 25%;
+    }
+
+
 }

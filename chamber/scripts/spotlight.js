@@ -47,6 +47,7 @@ function displaySpotlight(company) {
       logo.setAttribute("src", company.image);
       logo.setAttribute("alt", `${company.name} logo`);
       logo.setAttribute("width", "70%")
+      logo.setAttribute("class", "images")
 
       
     
@@ -56,19 +57,18 @@ function displaySpotlight(company) {
       card.appendChild(phone);
 
       card.style.textAlign = "center";
-      card.style.paddingBottom = "20px";
       card.style.border = "2px solid #ffb703";
       card.style.fontSize = "1rem";
       card.style.color = "white";
-      card.style.textDecorationLine = "none";
       card.style.boxShadow = "5px 5px 5px 5px #ffb703"
-      card.style.display = "block";
-      card.style.marginTop = "20px";
+      card.style.justifyItems = "center";
       
 
-      url.style.backgroundColor = "#eee";
       url.style.padding = "5px";
       url.style.margin = "10px";
+      url.style.textDecorationColor= "#eee";
+      url.style.textDecoration = "none";
+      url.style.color = "#eee";
 
       h2.style.margin = "10px";
       logo.style.margin = "10px";
@@ -76,15 +76,15 @@ function displaySpotlight(company) {
       document.querySelector(".Spotlight").appendChild(card);
 
       if (i == 3) {
-          card.setAttribute("class", "div1");
+        card.setAttribute("class", "div3");
+      } else if (i == 2) {
+        card.setAttribute("class", "div2");
+      } else if (i == 1) {
+        card.setAttribute("class", "div1");
       }
 
     }
 
-    }
-
-
-
-
+  }
 
 }

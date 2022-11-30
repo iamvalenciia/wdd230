@@ -357,5 +357,27 @@
 
 
 
+    /*Spotligh JavaScript*/
+    .div2,
+    .div1 {
+        display: grid;
+        margin-top: 20px;
+    }
+
+    .div3 {
+        display: grid;
+        margin-top: 20px;
+    }
+
+    .div1 img,
+    .div2 img,
+    .div3 img {
+        width: 60%;
+    }
+
+    
+
+
+
 
 }

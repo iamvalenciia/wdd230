@@ -274,157 +274,6 @@ button a {
     margin-bottom: 10px;
     gap: 10px;
 }
-/* SPOTLIGHT SECTION */
-
-
-.Spot1 {
-    display: grid;
-    grid-row: 1;
-    background-color: white;
-    color: #ffb703;
-    box-shadow: 0 0 10px black;
-    padding: 2px;
-    gap: 2px;
-
-}
-.Spo1A {/* TITLE pizzahub*/
-    display: grid;
-    justify-content: center;
-    background-color:#023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spo1B {/* box image pizzahub*/
-    float: left;
-    display: grid;
-    justify-content: center;
-}
-.Spot1 img{/* image pizzahub*/
-    width: auto;
-    height: 80px;
-    background-color: white;
-}
-.Spo1C {/* text*/
-    display: grid;
-    justify-content: center;
-    background: #ffb703;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: auto;
-    width: auto;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spo1D {/* text contac@pizzahub.com*/
-    display: grid;
-    justify-content: center;
-    color: white;
-    background-color: #023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-
-
-
-.Spot2 {
-    display: grid;
-    grid-row: 2;
-    background-color: white;
-    color: #ffb703;
-    box-shadow: 0 0 10px black;
-    padding: 2px;
-    gap: 2px;
-
-}
-.Spot2A {/* TITLE pizzahub*/
-    display: grid;
-    justify-content: center;
-    background-color:#023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spot2B {/* box image pizzahub*/
-    float: left;
-    display: grid;
-    justify-content: center;
-}
-.Spot2B img{/* image pizzahub*/
-    width: auto;
-    height: 80px;
-    background-color: white;
-}
-.Spot2C {/* text*/
-    display: grid;
-    justify-content: center;
-    background: #ffb703;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: auto;
-    width: auto;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spot2D {/* text contac@pizzahub.com*/
-    display: grid;
-    justify-content: center;
-    color: white;
-    background-color: #023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-
-
-
-.Spot3 {
-    display: none;
-    grid-row: 2;
-    background-color: white;
-    color: #ffb703;
-    box-shadow: 0 0 10px black;
-    padding: 2px;
-    gap: 2px;
-
-}
-.Spot3A {/* TITLE pizzahub*/
-    display: grid;
-    justify-content: center;
-    background-color:#023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spot3B {/* box image pizzahub*/
-    float: left;
-    display: grid;
-    justify-content: center;
-}
-.Spot3B img{/* image pizzahub*/
-    width: auto;
-    height: 80px;
-    background-color: white;
-}
-.Spot3C {/* text*/
-    display: grid;
-    justify-content: center;
-    background: #ffb703;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: auto;
-    width: auto;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-.Spot3D {/* text contac@pizzahub.com*/
-    display: grid;
-    justify-content: center;
-    color: white;
-    background-color: #023047;
-    font-size: 1.5rem;
-    line-height: 1px;
-}
-
 
 
 /* FOOTER */
@@ -850,3 +699,26 @@ form label.top input:required:valid {
     font-size: 1.3rem;
     font-style: italic;
 }
+
+
+/*Spotligh JavaScript*/
+
+
+.div2,
+.div1 {
+    display: grid;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.div3 {
+    display: none;
+}
+
+.div1 img,
+.div2 img,
+.div3 img {
+    width: 25%;
+}
+
+
