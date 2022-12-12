@@ -1,0 +1,17 @@
+@media only screen and (min-width: 64rem) {
+
+    /*HEADER*/
+
+    header {
+        margin: 0 6em;
+    }
+    #primaryNav {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+
+    nav ul li {
+        border: none;
+    }
+}
