@@ -44,6 +44,10 @@
         grid-row: 1;
     }
 
+    .img-juice2 {
+        display: none;
+    }
+
     .paragraph-juice {
         grid-column: 2;
         grid-row: 1;

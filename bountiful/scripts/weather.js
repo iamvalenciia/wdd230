@@ -54,11 +54,25 @@ function  displayResults(weatherData, curFor = "current") {
 
         // DOM elements to be manipulated
         const day1 = document.getElementById("dOW1");
-        day1.textContent = weekday[today+1];
         const day2 = document.getElementById("dOW2");
-        day2.textContent = weekday[today+2];
         const day3 = document.getElementById("dOW3");
-        day3.textContent = weekday[today+3];
+        if (today == 0 && 1 && 3 && 4) {
+          day1.textContent = weekday[today+1];
+          day2.textContent = weekday[today+2];
+          day3.textContent = weekday[today+3];
+        } else if (today== 5) {
+          day1.textContent = weekday[6]; //5 (saturday)
+          day2.textContent = weekday[0]; //0 (sunday)
+          day3.textContent = weekday[1]; //1 (monday)
+        } else if (today == 6) {
+          day1.textContent = weekday[0]; //5 (saturday)
+          day2.textContent = weekday[1]; //0 (sunday)
+          day3.textContent = weekday[2]; //1 (monday)
+        }
+
+
+        
+        //5 0 1 (today = 4)
 
         const sufFar = " °F"
         const hiEl1 = document.getElementById("hi1");

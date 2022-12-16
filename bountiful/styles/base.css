@@ -154,6 +154,11 @@ nav ul.open {display: grid;}
     margin: 1rem 0;
 }
 
+.img-juice2 {
+    display: none;
+}
+
+
 .paragraph-juice {
     display: grid;
     grid-column: 1/3;
