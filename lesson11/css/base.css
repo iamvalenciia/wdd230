@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Pacifico&family=Solway:wght@300&display=swap');
+
+/*
+font-family: 'Noto Sans KR', sans-serif; (Product Names)
+font-family: 'Pacifico', cursive; (titles)
+font-family: 'Solway', serif; (paragraph)
+*/
+
+p {
+    font-family: 'Solway', serif; 
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h4 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
