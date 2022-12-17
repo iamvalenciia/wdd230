@@ -121,10 +121,14 @@ nav ul.open {display: grid;}
     font-family: var(--font-paragraph);
 }
 
-.order-button {
+
+.form-button {
     display: grid;
     grid-column: 1;
     grid-row: 3;
+}
+
+.order-button {
     background-color: var(--color-primary);
     color: var(--color-accent1);
     border-radius: 1rem;
@@ -132,6 +136,11 @@ nav ul.open {display: grid;}
     border: solid 1px var(--color-primary);
     font-family: var(--font-normal-heading);
     text-align: center;
+}
+
+.order-button:hover {
+    background-color: var(--color-secundary);
+    cursor: pointer;
 }
 
 .display-number-orders {
@@ -241,3 +250,51 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+
+
+/* MAIN FRESH*/
+
+.grid-fresh {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.bigger-h {
+    text-align: center;
+}
+.fruit-top-image {
+    text-align: center;
+}
+.fruit-image {
+    width: 30%;
+}
+
+.fruit-bot-image {
+    text-align: center;
+}
+.fruit-image2 {
+    width: 60%;
+}
+
+
+/* FORM */
+
+#mix-form {
+    font-family: var(--font-normal-heading);
+}
+
+#form-output h2{
+    font-family: var(--font-beautiful-heading);
+    color: var(--color-primary);
+}
+
+.margin-just {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+
+#mix-form label input{
+    border: 2px solid var(--color-primary);
+}
+
