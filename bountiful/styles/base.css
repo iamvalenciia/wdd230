@@ -298,3 +298,23 @@ footer {
     border: 2px solid var(--color-primary);
 }
 
+
+/* ABOUT US */
+
+.like-head {
+    font-family: var(--font-beautiful-heading);
+    font-size: 3rem;
+    color: var(--color-primary);
+}
+
+.history {
+    font-family: var(--font-normal-heading);
+}
+
+.heading-about {
+    font-family: var(--font-beautiful-heading);
+    text-align: center;
+    color: var(--color-primary);
+}
+
+

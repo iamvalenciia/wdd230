@@ -154,6 +154,26 @@
         width: 40%;
     }
 
+    /* ABOUT US */
+
+    .grid-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+
+    }
+
+    #our-story {
+        display: grid;
+        grid-column: 1;
+        text-align: justify;
+    }
+
+    #contact {
+        display: grid;
+        grid-column: 2;
+    }
+
 
 
 
