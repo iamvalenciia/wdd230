@@ -291,11 +291,18 @@ footer {
 .margin-just {
     display: inline-block;
     margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 
 #mix-form label input{
     border: 2px solid var(--color-primary);
+    width: 98%;
+}
+
+#add-instructions {
+    display: flex;
+    width: 98%;
 }
 
 

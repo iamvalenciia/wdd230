@@ -154,6 +154,10 @@
         width: 40%;
     }
 
+    #mix-form label input {
+        width: 40%;
+    }
+
     /* ABOUT US */
 
     .grid-about {
